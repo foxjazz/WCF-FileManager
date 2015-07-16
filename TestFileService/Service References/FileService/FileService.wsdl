@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="FileService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:7415/FileService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:7415/FileService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:7415/FileService.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/Message" />
+      <xsd:import schemaLocation="http://localhost:7415/FileService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:7415/FileService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/FMFilesService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IFileService_GetFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFile" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_GetFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_GetFileStream_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFileStream" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_GetFileStream_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFileStreamResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_SendFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendFile" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_SendFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_CheckFileExists_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckFileExists" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_CheckFileExists_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckFileExistsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_CreateFolder_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateFolder" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_CreateFolder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateFolderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_RenameFolder_InputMessage">
+    <wsdl:part name="parameters" element="tns:RenameFolder" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_RenameFolder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RenameFolderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_DeleteFolder_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFolder" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_DeleteFolder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFolderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_DeleteFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFile" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_DeleteFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_GetFolders_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFolders" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_GetFolders_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoldersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_List_InputMessage">
+    <wsdl:part name="parameters" element="tns:List" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_List_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_ListFiles_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListFiles" />
+  </wsdl:message>
+  <wsdl:message name="IFileService_ListFiles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListFilesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IFileService">
+    <wsdl:operation name="GetFile">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFileService/GetFile" message="tns:IFileService_GetFile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFileService/GetFileResponse" message="tns:IFileService_GetFile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStream">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFileService/GetFileStream" message="tns:IFileService_GetFileStream_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFileService/GetFileStreamResponse" message="tns:IFileService_GetFileStream_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendFile">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFileService/SendFile" message="tns:IFileService_SendFile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFileService/SendFileResponse" message="tns:IFileService_SendFile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckFileExists">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFileService/CheckFileExists" message="tns:IFileService_CheckFileExists_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFileService/CheckFileExistsResponse" message="tns:IFileService_CheckFileExists_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateFolder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFileService/CreateFolder" message="tns:IFileService_CreateFolder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFileService/CreateFolderResponse" message="tns:IFileService_CreateFolder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RenameFolder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFileService/RenameFolder" message="tns:IFileService_RenameFolder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFileService/RenameFolderResponse" message="tns:IFileService_RenameFolder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFolder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFileService/DeleteFolder" message="tns:IFileService_DeleteFolder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFileService/DeleteFolderResponse" message="tns:IFileService_DeleteFolder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFile">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFileService/DeleteFile" message="tns:IFileService_DeleteFile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFileService/DeleteFileResponse" message="tns:IFileService_DeleteFile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFolders">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFileService/GetFolders" message="tns:IFileService_GetFolders_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFileService/GetFoldersResponse" message="tns:IFileService_GetFolders_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="List">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFileService/List" message="tns:IFileService_List_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFileService/ListResponse" message="tns:IFileService_List_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListFiles">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFileService/ListFiles" message="tns:IFileService_ListFiles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFileService/ListFilesResponse" message="tns:IFileService_ListFiles_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IFileService" type="tns:IFileService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetFile">
+      <soap:operation soapAction="http://tempuri.org/IFileService/GetFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStream">
+      <soap:operation soapAction="http://tempuri.org/IFileService/GetFileStream" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendFile">
+      <soap:operation soapAction="http://tempuri.org/IFileService/SendFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckFileExists">
+      <soap:operation soapAction="http://tempuri.org/IFileService/CheckFileExists" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateFolder">
+      <soap:operation soapAction="http://tempuri.org/IFileService/CreateFolder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RenameFolder">
+      <soap:operation soapAction="http://tempuri.org/IFileService/RenameFolder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFolder">
+      <soap:operation soapAction="http://tempuri.org/IFileService/DeleteFolder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFile">
+      <soap:operation soapAction="http://tempuri.org/IFileService/DeleteFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFolders">
+      <soap:operation soapAction="http://tempuri.org/IFileService/GetFolders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="List">
+      <soap:operation soapAction="http://tempuri.org/IFileService/List" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListFiles">
+      <soap:operation soapAction="http://tempuri.org/IFileService/ListFiles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FileService">
+    <wsdl:port name="BasicHttpBinding_IFileService" binding="tns:BasicHttpBinding_IFileService">
+      <soap:address location="http://localhost:7415/FileService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

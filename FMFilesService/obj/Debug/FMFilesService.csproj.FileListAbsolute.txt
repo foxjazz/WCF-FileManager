@@ -1,0 +1,12 @@
+C:\DefaultCollection\FleetManager\ProtoTypes\FMFileService\FMFilesService\bin\FMFilesService.dll.config
+C:\DefaultCollection\FleetManager\ProtoTypes\FMFileService\FMFilesService\bin\FMFilesService.dll
+C:\DefaultCollection\FleetManager\ProtoTypes\FMFileService\FMFilesService\bin\FMFilesService.pdb
+C:\DefaultCollection\FleetManager\ProtoTypes\FMFileService\FMFilesService\obj\Debug\FMFilesService.dll
+C:\DefaultCollection\FleetManager\ProtoTypes\FMFileService\FMFilesService\obj\Debug\FMFilesService.pdb
+C:\DefaultCollection\FleetManager\ProtoTypes\FMFileService\FMFilesService\obj\Debug\FMFilesService.csprojResolveAssemblyReference.cache
+C:\Users\Joe\Documents\code\TestFileService\TestFileService\FMFilesService\bin\FMFilesService.dll.config
+C:\Users\Joe\Documents\code\TestFileService\TestFileService\FMFilesService\bin\FMFilesService.dll
+C:\Users\Joe\Documents\code\TestFileService\TestFileService\FMFilesService\bin\FMFilesService.pdb
+C:\Users\Joe\Documents\code\TestFileService\TestFileService\FMFilesService\obj\Debug\FMFilesService.csprojResolveAssemblyReference.cache
+C:\Users\Joe\Documents\code\TestFileService\TestFileService\FMFilesService\obj\Debug\FMFilesService.dll
+C:\Users\Joe\Documents\code\TestFileService\TestFileService\FMFilesService\obj\Debug\FMFilesService.pdb

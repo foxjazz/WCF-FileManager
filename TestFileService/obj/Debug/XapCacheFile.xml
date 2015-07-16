@@ -1,0 +1,10 @@
+﻿<xapCache source="C:\DefaultCollection\FleetManager\ProtoTypes\TestFileService\TestFileService\Bin\Debug\TestFileService.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="7/15/2015 7:54:34 PM">
+  <file source="C:\DefaultCollection\FleetManager\ProtoTypes\TestFileService\TestFileService\obj\Debug\TestFileService.dll" archivePath="TestFileService.dll" lastWriteTime="7/15/2015 7:54:34 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.ComponentModel.DataAnnotations.dll" archivePath="System.ComponentModel.DataAnnotations.dll" lastWriteTime="11/18/2011 4:40:20 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Silverlight\System.ServiceModel.DomainServices.Client.dll" archivePath="System.ServiceModel.DomainServices.Client.dll" lastWriteTime="4/12/2013 2:58:22 AM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Silverlight\System.ServiceModel.DomainServices.Client.Web.dll" archivePath="System.ServiceModel.DomainServices.Client.Web.dll" lastWriteTime="4/12/2013 2:58:22 AM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.ServiceModel.Web.Extensions.dll" archivePath="System.ServiceModel.Web.Extensions.dll" lastWriteTime="11/18/2011 4:40:20 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Controls.Data.Input.dll" archivePath="System.Windows.Controls.Data.Input.dll" lastWriteTime="11/18/2011 4:40:20 PM" />
+  <file source="C:\DefaultCollection\FleetManager\ProtoTypes\TestFileService\TestFileService\ServiceReferences.ClientConfig" archivePath="ServiceReferences.ClientConfig" lastWriteTime="7/15/2015 7:54:31 PM" />
+  <file source="C:\DefaultCollection\FleetManager\ProtoTypes\TestFileService\TestFileService\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="7/15/2015 8:07:08 AM" />
+</xapCache>

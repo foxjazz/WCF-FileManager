@@ -1,0 +1,12 @@
+C:\DefaultCollection\FleetManager\ProtoTypes\TestFileService\TestFileService.Web\bin\TestFileService.Web.dll.config
+C:\DefaultCollection\FleetManager\ProtoTypes\TestFileService\TestFileService.Web\bin\TestFileService.Web.dll
+C:\DefaultCollection\FleetManager\ProtoTypes\TestFileService\TestFileService.Web\bin\TestFileService.Web.pdb
+C:\DefaultCollection\FleetManager\ProtoTypes\TestFileService\TestFileService.Web\obj\Debug\TestFileService.Web.dll
+C:\DefaultCollection\FleetManager\ProtoTypes\TestFileService\TestFileService.Web\obj\Debug\TestFileService.Web.pdb
+C:\DefaultCollection\FleetManager\ProtoTypes\TestFileService\TestFileService.Web\obj\Debug\TestFileService.Web.csprojResolveAssemblyReference.cache
+C:\Users\Joe\Documents\code\TestFileService\TestFileService\TestFileService.Web\bin\TestFileService.Web.dll.config
+C:\Users\Joe\Documents\code\TestFileService\TestFileService\TestFileService.Web\bin\TestFileService.Web.dll
+C:\Users\Joe\Documents\code\TestFileService\TestFileService\TestFileService.Web\bin\TestFileService.Web.pdb
+C:\Users\Joe\Documents\code\TestFileService\TestFileService\TestFileService.Web\obj\Debug\TestFileService.Web.csprojResolveAssemblyReference.cache
+C:\Users\Joe\Documents\code\TestFileService\TestFileService\TestFileService.Web\obj\Debug\TestFileService.Web.dll
+C:\Users\Joe\Documents\code\TestFileService\TestFileService\TestFileService.Web\obj\Debug\TestFileService.Web.pdb

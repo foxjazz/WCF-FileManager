@@ -1,0 +1,26 @@
+﻿<configuration>
+  <system.serviceModel>
+    <bindings>
+      <basicHttpBinding>
+        <binding name="BasicHttpBinding_IFileService" maxBufferSize="2147483647"
+          maxReceivedMessageSize="2147483647">
+          <security mode="None" />
+        </binding>
+        <binding name="BasicHttpsBinding_IFileService" maxBufferSize="2147483647"
+          maxReceivedMessageSize="2147483647">
+          <security mode="Transport" />
+        </binding>
+        <binding name="BasicHttpBinding_IFileService1" maxBufferSize="2147483647"
+          maxReceivedMessageSize="2147483647">
+          <security mode="None" />
+        </binding>
+      </basicHttpBinding>
+    </bindings>
+    <client>
+      <endpoint address="http://10.33.33.245/FileManagerService/FileService.svc"
+        binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IFileService"
+        contract="FileService.IFileService" name="BasicHttpBinding_IFileService" />
+    
+    </client>
+  </system.serviceModel>
+</configuration>

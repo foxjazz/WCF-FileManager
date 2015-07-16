@@ -1,0 +1,1 @@
+C:\DefaultCollection\FleetManager\ProtoTypes\TestFileService\TestFileService.Web\TestFileService.Web.csproj,635720335902160078,Properties\AssemblyInfo.cs,FileSvc\FileSvc.svc.cs,FileSvc\IFileSvc.cs,
