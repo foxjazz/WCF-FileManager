@@ -10,3 +10,9 @@ C:\Users\Joe\Documents\code\TestFileService\TestFileService\TestFileService.Web\
 C:\Users\Joe\Documents\code\TestFileService\TestFileService\TestFileService.Web\obj\Debug\TestFileService.Web.csprojResolveAssemblyReference.cache
 C:\Users\Joe\Documents\code\TestFileService\TestFileService\TestFileService.Web\obj\Debug\TestFileService.Web.dll
 C:\Users\Joe\Documents\code\TestFileService\TestFileService\TestFileService.Web\obj\Debug\TestFileService.Web.pdb
+C:\Users\Joe\Documents\GitHub\WCF-FileManager\TestFileService.Web\bin\TestFileService.Web.dll.config
+C:\Users\Joe\Documents\GitHub\WCF-FileManager\TestFileService.Web\bin\TestFileService.Web.dll
+C:\Users\Joe\Documents\GitHub\WCF-FileManager\TestFileService.Web\bin\TestFileService.Web.pdb
+C:\Users\Joe\Documents\GitHub\WCF-FileManager\TestFileService.Web\obj\Debug\TestFileService.Web.csprojResolveAssemblyReference.cache
+C:\Users\Joe\Documents\GitHub\WCF-FileManager\TestFileService.Web\obj\Debug\TestFileService.Web.dll
+C:\Users\Joe\Documents\GitHub\WCF-FileManager\TestFileService.Web\obj\Debug\TestFileService.Web.pdb

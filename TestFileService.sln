@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFileService.Web", "TestFileService.Web\TestFileService.Web.csproj", "{C080335E-FFC7-4487-BAE3-79DBBB4A4DF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMFilesService", "FMFilesService\FMFilesService.csproj", "{FD3641AD-FA52-4FF2-B348-93327404A529}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesService", "FMFilesService\FilesService.csproj", "{FD3641AD-FA52-4FF2-B348-93327404A529}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

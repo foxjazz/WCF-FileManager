@@ -5,7 +5,7 @@ using System.Text;
 using System.ServiceModel;
 using System.IO;
 
-namespace FMFilesService
+namespace FilesService
 {
 	[MessageContract]
 	public class FileUploadMessage

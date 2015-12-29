@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace FMFilesService
+namespace FilesService
 {
 	public delegate void FileEventHandler(object sender, FileEventArgs e);
 

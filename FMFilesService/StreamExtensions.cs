@@ -2,7 +2,7 @@
 using System;
 using System.IO;
 
-namespace FMFilesService
+namespace FilesService
 {
 	public static class StreamExtensions
 	{

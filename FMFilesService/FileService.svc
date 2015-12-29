@@ -1,1 +1,1 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="FMFilesService.FileService" CodeBehind="FileService.svc.cs" %>
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="FilesService.FileService" CodeBehind="FileService.svc.cs" %>
